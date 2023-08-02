@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.maincard{
+    background-color: rgb(252, 71, 6,.6);
+    margin: 1rem;
+}
+.maincard h1 {
+writing-mode: vertical-rl;
+font-size: 2.5rem;
+padding-top: 7rem;
+margin: 1rem;
+float: left;
+}
+.recipeimg{
+    padding-top: 5rem;
+    width: 30%;
+    height: 600px;
+    float: left;
+}
+.recipe{
+    padding-top: 1rem;
+    margin-left: 40%;
+}
+
+.sandwich {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #63A2BB;
+    margin-right: 1rem;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center h2 {
+    padding-left: 2rem;
+}
+
+.center p {
+    font-weight: bolder;
+    font-size: larger;
+    padding-left: 1rem;
+}
