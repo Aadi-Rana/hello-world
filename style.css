@@ -3,9 +3,30 @@
     margin: 0px;
     text-decoration: none;
     list-style: none;
-    box-sizing: border-box;    
+    box-sizing: border-box;  
 }
 
+body {
+    /* display: cover; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+.bg-image{
+    /* background-repeat: no-repeat;   */
+    background-size: 100%; 
+    width: 100%;
+    position: absolute;
+    /* display: cover; */
+    height: 100%;
+}
+div>img{
+    opacity: .6;
+    height: 100%;
+    width: 100%;
+}
+.content{
+    position: relative;
+}
 nav {
     /* background-color: whitesmoke; */
     max-width: 100%;
@@ -27,7 +48,7 @@ nav ul li{
     line-height: 60px;
 }
 nav ul li a {
-    color: black;
+    color: white;
     font-size: 15px;
     text-transform: uppercase;
     padding: 25px;
@@ -42,20 +63,15 @@ nav ul li a {
     margin: 10px;
     margin-right: 15px;
     cursor: pointer;
-    border-radius: 4px;
+    /* border-radius: 4px; */
 }
 .primary-button:hover, .getstartedbtn:hover {
 color: white;
 background-color: orangered;
+transition: 1s;
+
 }
 
-body {
-    background-image: linear-gradient(whitesmoke,rgb(163, 156, 157),rgb(128, 120, 120), grey, rgb(235, 59, 59,.5));
-    background-size: 100%;; 
-    background-repeat: no-repeat;
-    display: cover;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
-}
 .herosection{
     float: left;
     width: 50rem;
@@ -67,11 +83,11 @@ body {
 .herotitle {
     letter-spacing: .2rem;
     font-size: larger;
-    color: whitesmoke;
+    
 }
 .herosection h1{
     font-size: 40px;
-    color: whitesmoke;
+    /* color: whitesmoke; */
 }
 .herosection h3{
     letter-spacing: 15px;
@@ -86,15 +102,15 @@ body {
 .getstartedbtn{
     margin-top: 20px;
     margin-left: 100px;
-    width: 150px;
-    height: 40px;
+    padding: .8rem;
     border: none;
     background-color: whitesmoke;
-    border-radius: 4px;
+    /* border-radius: 4px; */
     font-size: 20px;
     font-weight: bolder;
     letter-spacing: 1px;
     cursor: pointer;
+
     
 }
 
@@ -103,52 +119,53 @@ body {
     /* color: orangered; */
     border-radius: 5px;
     width: 20rem;
-    height: 26rem;
+    height: 22rem;
     padding-top: 1rem;
-    background-image: linear-gradient(to top right, whitesmoke,grey,rgb(146, 88, 88), rgb(243, 126, 126,.5));
+    /* background-image: linear-gradient(to top right, whitesmoke,grey,rgb(146, 88, 88), rgb(243, 126, 126,.5)); */
     text-align: center;
     margin-top: 20px;
     margin-left: 12rem;
-    /* box-shadow: 5px 5px 2px 1px rgb(0,86,156,.2); */
+    box-shadow: 5px 5px 5rem 5rem rgba(80, 158, 211, .6) inset;
 }
 
 .works h2{
     background-color: whitesmoke;
-    /* opacity: .5; */
     margin: 10px;
     padding: 5px;
 }
 
 .works a{
-font-size: 15px;
-padding: 3px;
-color: white;
-line-height: 30px;
-width: 50px;
-
+    padding: 3px;
+    line-height: 30px;
+    /* width: 50px; */
+    
 }
 
 .works a:hover, .nav ul li a:hover {
-background-color: white;
-opacity: .8;
-color: orangered;
-font-size: 20px;
+    background-color: white;
+    opacity: .8;
+    color: orangered;
+    font-size: 1.2rem;
+    transition: .3s ease-in-out;
 
 }
 .herobar {
-height: 3rem;
-margin-top: 500px;
-margin-left: 15px;
-margin-right: 15px;
+    height: 3rem;
+    margin-top: 500px;
+    margin-left: 15px;
+    margin-right: 15px;
 
 }
 
 .herobar ul {
     text-align: center;
+    background-color: black;
+    /* box-shadow: 5px 5px 50rem 50rem #5BABD2 inset; */
+    ;
 }
 
 .herobar ul li {
-    color: black;
+    color: white;
     font-size: 15px;
     text-transform: uppercase;
     display: inline;
@@ -156,10 +173,11 @@ margin-right: 15px;
     line-height: 3rem;
     align-content: center;
     font-weight: bold;
-   cursor: pointer;
+    cursor: pointer;
 }
 
-.herobar ul li:hover{
-    color: whitesmoke;
+.herobar ul li:hover, .herobar ul:hover {
+    transition: .5s;
+    color: orangered;
     text-decoration: overline;
 }
