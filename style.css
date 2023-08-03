@@ -110,8 +110,6 @@ transition: 1s;
     font-weight: bolder;
     letter-spacing: 1px;
     cursor: pointer;
-
-    
 }
 
 .works{
@@ -135,6 +133,7 @@ transition: 1s;
 }
 
 .works a{
+    color: white;
     padding: 3px;
     line-height: 30px;
     /* width: 50px; */
