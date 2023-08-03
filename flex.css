@@ -47,23 +47,26 @@ h1, h2{
     letter-spacing: 2px;
     color: whitesmoke;
     font-weight: 1000;
-    line-height: 2.5rem;
+    line-height: 2rem;
 }
 
 button{
-    padding: 1rem;
+    margin: 1rem;
+    padding: 2rem;
     font-size: larger;
     font-weight: 1000;
     background-color: whitesmoke;
     color:rgb(105, 54, 153);
     border: none;
     cursor: pointer;
-
+    box-shadow: 1px 1px 5rem 5rem rgb(216, 219, 216) inset;
+    
 }
 
 button:hover{
-    transition: 2s ease-in-out;
-    background-color: black;
-    color: white;
-    
+    transition: 1s ease-in-out;
+    background-color: #8245bb;
+    border: 1px solid white;
+    color: white; 
+    box-shadow: 1px 1px 2rem .5rem #9871bd;
 }
