@@ -20,7 +20,7 @@ body {
     height: 100%;
 }
 div>img{
-    opacity: .6;
+    opacity: .4;
     height: 100%;
     width: 100%;
 }
@@ -92,11 +92,11 @@ transition: 1s;
 .herosection h3{
     letter-spacing: 15px;
     line-height: 5rem;
-    color: orangered;
+    /* color: orangered; */
 }
 .herosection p{
     font-size: 35px;
-    color: white;
+    color: orangered;
 }
 
 .getstartedbtn{
