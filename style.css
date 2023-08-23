@@ -111,8 +111,7 @@ transition: 1s;
     padding-top: 1rem;
     text-align: center;
     margin: 0 1rem 0 1rem;
-    box-shadow: 1px 1px 1px 1px rgba(107, 63, 138, 0.5);
-}
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
 
 .works h2{
     background-color: whitesmoke;
