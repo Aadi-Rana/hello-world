@@ -7,40 +7,26 @@
 }
 
 body {
-    /* display: cover; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
 }
 
-.bg-image{
-    /* background-repeat: no-repeat;   */
-    background-size: 100%; 
-    width: 100%;
-    position: absolute;
-    /* display: cover; */
-    height: 100%;
-}
-div>img{
-    opacity: .2;
-    height: 100%;
-    width: 100%;
-}
-.content{
-    position: relative;
+.navigation{
+   display: flex;
+   width: 80%;
+   margin: auto;
+   justify-content: center;
+   flex-wrap: wrap;
 }
 nav {
-    /* background-color: whitesmoke; */
-    max-width: 100%;
     height: 60px;
-    margin: 15px;
-    display: flex;
-    justify-content: space-between ;
 }
-label.logo{
+.logo{
+    flex: 1;
     color: orangered;
-    font-size: 35px;
+    padding-right: ;
+    font-size: 2rem;
     line-height: 60px;
     font-weight: bold;
-    margin-left: 8%;
 }
 
 nav ul li{
@@ -49,22 +35,23 @@ nav ul li{
 }
 nav ul li a {
     color: black;
-    font-size: 15px;
+    font-size: 12px;
     text-transform: uppercase;
-    padding: 25px;
+    padding: .8rem;
 }
 .primary-button{
+    display: flex;
+    justify-content: center;
     font-size: 15px;
+    padding: 1rem 2rem;
     font-weight: bolder;
     text-transform: uppercase;
     letter-spacing: 1px;
     border: none;
-    width: 100px;
-    margin: 10px;
-    margin-right: 15px;
+    margin-right: 5rem;
     cursor: pointer;
-    background-color: white;
-    /* border-radius: 4px; */
+    color: white;
+    background-color: rgb(75, 0, 130,.5);
 }
 .primary-button:hover, .getstartedbtn:hover {
 color: white;
@@ -72,58 +59,62 @@ background-color: orangered;
 transition: 1s;
 
 }
-
+.mainsection{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    margin-top: 8rem;
+    gap: 1rem;
+}
 .herosection{
-    float: left;
-    width: 50rem;
-    height: 28rem; 
-    margin-left: 1rem;
-    padding-left: 7rem;
-    padding-top: 3rem;
+    background-color: rgb(75, 0, 130,.1);
+    /* border: 1px solid black; */
+    flex: 1;
+    padding-top: 2rem;
+    padding-left: 1rem;
     }
 .herotitle {
     letter-spacing: .2rem;
-    font-size: larger;
     
 }
 .herosection h1{
-    font-size: 40px;
-    /* color: whitesmoke; */
+    font-size: 2rem;
 }
 .herosection h3{
-    letter-spacing: 15px;
+    letter-spacing: .6rem;
     line-height: 5rem;
-    /* color: orangered; */
 }
 .herosection p{
-    font-size: 35px;
+    font-size: 2rem;
     color: orangered;
 }
 
 .getstartedbtn{
-    margin-top: 20px;
-    margin-left: 100px;
+    margin-top: 1.2rem;
+    margin-left: 5.2rem;
+    margin-bottom: 1rem;
     padding: .8rem;
     border: none;
-    background-color: white;
-    /* border-radius: 4px; */
-    font-size: 20px;
+    color: white;
+    background-color: rgb(75, 0, 130,.5);
+    font-size: 1.5rem;
     font-weight: bolder;
     letter-spacing: 1px;
     cursor: pointer;
 }
 
 .works{
-    float: left;
-    /* color: orangered; */
+    flex: 1;
     border-radius: 5px;
-    width: 20rem;
-    height: 22rem;
+    /* width: 20rem; */
+    /* height: 22rem; */
     padding-top: 1rem;
     text-align: center;
-    margin-top: 20px;
-    margin-left: 5rem;
-    box-shadow: 5px 5px 5rem 5rem rgba(80, 158, 211, .6) inset;
+    /* margin-right: 1rem; */
+    box-shadow: 1px 1px 1px 1px rgba(107, 63, 138, 0.5);
+    /* transform: skewX(-2deg); */
 }
 
 .works h2{
@@ -136,47 +127,14 @@ transition: 1s;
     color: black;
     padding: 3px;
     line-height: 30px;
-    /* width: 50px; */
     
 }
 
 .works a:hover, .nav ul li a:hover {
-    background-color: white;
+    background-color: rgb(127, 79, 161,0.3);
     opacity: .8;
     color: orangered;
     font-size: 1.2rem;
     transition: .3s ease-in-out;
 
-}
-.herobar {
-    height: 3rem;
-    margin-top: 500px;
-    margin-left: 15px;
-    margin-right: 15px;
-
-}
-
-.herobar ul {
-    text-align: center;
-    background-color: black;
-    /* box-shadow: 5px 5px 50rem 50rem #5BABD2 inset; */
-    ;
-}
-
-.herobar ul li {
-    color: white;
-    font-size: 15px;
-    text-transform: uppercase;
-    display: inline;
-    margin-left: 50px;
-    line-height: 3rem;
-    align-content: center;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.herobar ul li:hover, .herobar ul:hover {
-    transition: .5s;
-    color: orangered;
-    text-decoration: overline;
 }
